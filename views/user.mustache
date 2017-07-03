@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title>Robot Indeed</title>
+
+</head>
+
+<body>
+    <section id="user-container">
+        <div id="col1">
+            <img src="{{ avatar }}">
+            <br>
+            <p><b>Education</b></p>
+            <p><b>Skills</b></p>
+        </div>
+        <div id="col2">
+            <div id="info-block">
+                <h1>{{ name }}</h1>
+                <p class="line1">{{ location }} | {{{ work_status }}}</p>
+                <p class="line2">{{ email }} | {{ phone }}</p>
+                <div id="info-bottom">
+                    <p><span class="value">{{ education }}</span></p>
+                    <p><span class="value">{{{ skills }}}</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
